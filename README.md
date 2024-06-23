@@ -8,6 +8,15 @@ I have used Node.js, Express.js, PostgreSql, jsonwebtoken, prisma, bcryptjs, win
 
 AUTH API
 
+HOSTED DOMAIN 
+
+https://user-management-system-nu.vercel.app
+
+LOCAL DOMAIN
+
+http://localhost:5000
+
+
 REGISTER NEW USER API
 http://localhost:5000/api/v1/auth/register  POST ROUTE (PUBLIC ROUTE)
 
