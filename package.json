@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node src/seed/seed.js",
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "prisma generate && echo 'No build step needed' && exit 0",
+    "prisma": "prisma generate"
   },
   "author": "Prathmesh Kamble",
   "license": "ISC",
